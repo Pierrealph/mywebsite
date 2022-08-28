@@ -1,7 +1,25 @@
+@import "src/assets/styles/utils/variables";
+@import "src/assets/styles/utils/mixins";
+
 * {
   font-family: "Helvetica Neue", sans-serif;
 }
 
 body {
   margin: 0;
+}
+
+.btn {
+  background-color: $active-secondary;
+  padding: 15px;
+  border-radius: 50px;
+  border: none;
+  color: $text-tertiary;
+  font-weight: lighter;
+  width: 150px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $active-primary;
+  }
 }

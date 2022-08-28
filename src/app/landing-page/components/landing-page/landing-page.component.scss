@@ -1,0 +1,20 @@
+.home_infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my_infos {
+  text-align: center;
+}
+
+.background {
+  position: absolute;
+  left: -2.78%;
+  right: -2.71%;
+  top: 19.73%;
+  bottom: 35.06%;
+  background-image: url('../../../../assets/images/portrait.jpeg');
+  filter: blur(10px);
+  border: white solid 10px;
+}
